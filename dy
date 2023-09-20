@@ -1,0 +1,64 @@
+<!-- Файл base.html -->
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Список пользователей</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="menu">
+            <a href="/">Главная</a> |
+            <a href="/table">Таблица</a> |
+            <a href="/names">Пользователи</a> |
+            <a href="/users">Данные пользователей</a> |
+        </div>
+        <div id="content">
+            
+<table border="1" cellspacing="0">
+    <tr>
+        <th>Логин</th>
+        <th>Фамилия</th>
+        <th>Имя</th>
+        <th>Отчество</th>
+        <th>Дата рождения</th>
+        <th>Номер телефона</th>
+    </tr>
+    
+    <tr>
+        <td><a href="users/master129">master129</a></td>
+        <td>Малахов</td>
+        <td>Арсений</td>
+        <td>Викторович</td>
+        <td>25/01/1993</td>
+        <td>+7(918)646-55-91</td>
+    </tr>
+    
+    <tr>
+        <td><a href="users/airfix">airfix</a></td>
+        <td>Мадатов</td>
+        <td>Василий</td>
+        <td>Евгеньевич</td>
+        <td>30/11/1995</td>
+        <td>+7(951)345-83-17</td>
+    </tr>
+    
+    <tr>
+        <td><a href="users/kr0ff">kr0ff</a></td>
+        <td>Малинин</td>
+        <td>Петр</td>
+        <td>Степанович</td>
+        <td>18/12/1996</td>
+        <td>+7(938)044-15-18</td>
+    </tr>
+    
+</table>
+
+        </div>
+    </div>
+</body>
+
+</html>
